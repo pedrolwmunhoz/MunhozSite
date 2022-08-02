@@ -1,0 +1,178 @@
+.effect1{
+    animation:  effectEntrada 1s ease both alternate,
+                effectPulo 300ms ease both alternate,
+                effectSaida 300ms ease 300ms both alternate
+}
+.effect2{
+    animation:  effectEntrada 1s ease 100ms both alternate,
+                effectPulo 300ms ease 200ms both alternate,
+                effectSaida 300ms ease 400ms both alternate
+}
+.effect3{
+    animation:  effectEntrada 1s ease 200ms both alternate,
+                effectPulo 300ms ease 300ms both alternate,
+                effectSaida 300ms ease 500ms both alternate
+}
+.effect4{
+    animation:  effectEntrada 1s ease 100ms both alternate,
+                effectPulo 300ms ease 200ms both alternate,
+                effectSaida 300ms ease 400ms both alternate
+}
+.effect5{
+    animation:  effectEntrada 1s ease 200ms both alternate,
+                effectPulo 300ms ease 300ms both alternate,
+                effectSaida 300ms ease 500ms both alternate
+}
+.effect6{
+    animation:  effectEntrada 1s ease 300ms both alternate,
+                effectPulo 300ms ease 400ms both alternate,
+                effectSaida 300ms ease 600ms both alternate
+
+}
+.effect7{
+    animation:  effectEntrada 1s ease 400ms both alternate,
+                effectGiro  300ms ease both alternate,
+                effectGiroFim 300ms ease 300ms both alternate
+}
+.effect8{
+    animation:  effectEntrada 1s ease 500ms both alternate,
+                effectPulo 300ms ease 600ms both alternate,
+                effectSaida 300ms ease 800ms both alternate
+}
+.effect9{
+    animation:  effectEntrada 1s ease 600ms both alternate,
+                effectPulo 300ms ease 700ms both alternate,
+                effectSaida 300ms ease 900ms both alternate
+}
+.effect10{
+    animation:  effectEntrada 1s ease 700ms both alternate,
+                effectPulo 300ms ease 800ms both alternate,
+                effectSaida 300ms ease 1000ms both alternate
+}
+.effect11{
+    animation:  effectEntrada 1s ease 800ms both alternate,
+                effectPulo 300ms ease 900ms both alternate,
+                effectSaida 300ms ease 1100ms both alternate
+}
+.effect12{
+    animation:  effectEntrada 1s ease 900ms both alternate,
+                effectPulo 300ms ease 1000ms both alternate,
+                effectSaida 300ms ease 1200ms both alternate
+}
+.effect13{
+    animation:  effectEntrada 1s ease 200ms both alternate,
+                effectPulo 300ms ease 300ms both alternate,
+                effectSaida 300ms ease 500ms both alternate
+}
+.effect14{
+    animation:  effectEntrada 1s ease 300ms both alternate,
+                effectPulo 300ms ease 400ms both alternate,
+                effectSaida 300ms ease 600ms both alternate
+}
+.effect15{
+    animation:  effectEntrada 1s ease 400ms both alternate,
+                effectPulo 300ms ease 500ms both alternate,
+                effectSaida 300ms ease 700ms both alternate
+}
+.effect16{
+    animation:  effectEntrada 1s ease 500ms both alternate,
+                effectPulo 300ms ease 600ms both alternate,
+                effectSaida 300ms ease 800ms both alternate
+}
+.effect17{
+    animation:  effectEntrada 1s ease 600ms both alternate,
+                effectPulo 300ms ease 700ms both alternate,
+                effectSaida 300ms ease 900ms both alternate
+}
+.effect18{
+    animation:  effectEntrada 1s ease 700ms both alternate,
+                effectPulo 300ms ease 800ms both alternate,
+                effectSaida 300ms ease 1000ms both alternate
+}
+.effect19{
+    animation:  effectEntrada 1s ease 800ms both alternate,
+                effectPulo 300ms ease 900ms both alternate,
+                effectSaida 300ms ease 1100ms both alternate
+}
+.effect20 {
+    animation:  effectEntrada 1s ease 900ms both alternate,
+                effectPulo 300ms ease 1000ms both alternate,
+                effectSaida 300ms ease 1200ms both alternate
+}
+.effect21 {
+    animation:  effectEntrada 1s ease 1000ms both alternate,
+                effectPulo 300ms ease 1100ms both alternate,
+                effectSaida 300ms ease 1300ms both alternate
+}
+.effect22 {
+    animation:  effectEntrada 1s ease 1100ms both alternate,
+                effectPulo 300ms ease 1200ms both alternate,
+                effectSaida 300ms ease 1500ms both alternate
+}
+.effect23{
+    animation:  effectEntrada 1s ease 1200ms both alternate,
+                effectPulo 300ms ease 1300ms both alternate,
+                effectSaida 300ms ease 1500ms both alternate
+}
+.effect24 {
+    animation:  effectEntrada 1s ease 1300ms both alternate,
+                effectPulo 300ms ease 1400ms both alternate,
+                effectSaida 300ms ease 1600ms both alternate
+}
+.effect25 {
+    animation:  effectSubir 500ms ease 700ms both alternate,
+                effectFade 500ms ease 700ms both alternate
+}
+.effect26 {
+    animation: effectFade 500ms ease 700ms both alternate
+}
+
+@keyframes effectEntrada {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes effectFade {
+    from {
+        opacity: 0;
+    }
+}
+
+@keyframes effectSubir {
+    from {
+        margin-top: 60px;
+    }
+
+}
+
+
+@keyframes effectGiro {
+    to{
+        transform: rotate(180deg);
+    }
+}
+@keyframes effectGiroFim {
+    to {
+        transform:  rotate(360deg);
+    }
+}
+
+@keyframes EffectPulo {
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes effectSaida {
+    to {
+        transform: scale(1);
+    }
+}
