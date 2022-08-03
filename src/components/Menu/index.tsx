@@ -7,7 +7,7 @@ const GlobalContainer = styled.div`
         position: fixed;
         text-align: center;
         display: inline-block;
-        width: 15.5vh;
+        width: 7.5vw;
         menu{
             background-color: #181818;
             height: 100vh;
@@ -22,13 +22,13 @@ const GlobalContainer = styled.div`
                     font-family: 'Roboto', sans-serif;;
                     color: #fff;
                     font-weight: bold;
-                    font-size: 3vh;
+                    font-size: 100%;
                 }
             }
             p{
                 color:#a5a5a5;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                font-size: 11px;
+                font-size: 1rem;
                 margin-top: 2vh;
                 margin-bottom: 5vh;
                 padding-bottom: 3vh;
@@ -40,7 +40,7 @@ const GlobalContainer = styled.div`
                 nav{
                     border-top: 1px solid #282828;
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                    font-size: 16px;
+                    font-size: 1em;
                     padding: 20px;
                     .link{
                         color: #909096;;
@@ -49,8 +49,6 @@ const GlobalContainer = styled.div`
             }
             .containerIconeRedeSocial{
                 background-color: #181818;
-                color: white;
-                font-size: 20px;
                 border-top: 1px solid #282828;
             }
         }

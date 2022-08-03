@@ -8,12 +8,12 @@ const frase = ["</html>", "<body>", "<h1>", "<p>", "</p>"]
 
 const GlobalContainer = styled.div`
     background-color: #1d1d1d;
-    width: 100% !important;
-    height: 100vh !important;
     display: block;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 7vh;
     div{
         padding-top: 8vh;
-        padding-left: 8vh;
         font-family: Arial, Helvetica, sans-serif;
         div{
             padding: 0;
@@ -33,7 +33,7 @@ const GlobalContainer = styled.div`
             color: white;
             display: inline-block;
         }
-        .effectBlueScale:hover{
+        .effectBlue:hover{
             animation: moveh1 200ms ease infinite alternate-reverse;
             animation-fill-mode: forwards;
         }
@@ -52,11 +52,12 @@ const GlobalContainer = styled.div`
             margin-left: 4vh;
             display: inline-block;
         }
-        div p, p   {
-            color: #8d8d8d;;
+        .frontEndStyle {
+            color: #8d8d8d;
             font-size: 1.3rem;
-            margin-top: 1rem;
+            margin-top: 1vh;
             letter-spacing: 4px;
+            margin-left: 4vw;
         }
     }
 `
@@ -67,6 +68,7 @@ function Home(){
       for (let index = 0; index < maximo ; index++) {
           const elemento = document.querySelector(".effect"+index)
           elemento?.classList.remove("effect"+index)
+          elemento?.classList.add("effectBlue")
       }
       const resetEffectEntrada = document.getElementsByClassName("resetEffectEntrada")
       resetEffectEntrada[0]?.classList.remove("resetEffectEntrada")
@@ -79,24 +81,24 @@ function Home(){
 
             <div >
                 <p id="tagDecoration3" className="tagsDecoration">{frase[2]}</p>
-                <div className="resetEffectEntrada">
-                    <h2 className="effect1 effectBlueScale">H</h2>
-                    <h2 className="effect2 effectBlueScale">i</h2>
-                    <h2 className="effect3 effectBlueScale">,</h2>
-                    <div className="containerBlock effectBlueScale"></div>
-                    <h2 className="effect4 effectBlueScale">I</h2>
-                    <h2 className="effect5 effectBlueScale">'</h2>
-                    <h2 className="effect6 effectBlueScale">m</h2>
-                    <div className="iconEffect effectBlueScale effect7"><Icone/></div>
-                    <h2 className="effect8 effectBlueScale">u</h2>
-                    <h2 className="effect9 effectBlueScale">n</h2>
-                    <h2 className="effect10 effectBlueScale">h</h2>
-                    <h2 className="effect11 effectBlueScale">o</h2>
-                    <h2 className="effect12 effectBlueScale">z</h2>
+                <div className="containerEffect">
+                    <h2 className="effect1">H</h2>
+                    <h2 className="effect2">i</h2>
+                    <h2 className="effect3">,</h2>
                     <div className="containerBlock"></div>
-                    <h2 className="effect13 effectBlueScale">w</h2>
-                    <h2 className="effect14 effectBlueScale">e</h2>
-                    <h2 className="effect15 effectBlueScale" >b </h2>
+                    <h2 className="effect4">I</h2>
+                    <h2 className="effect5">'</h2>
+                    <h2 className="effect6">m</h2>
+                    <div className="iconEffect effect7"><Icone/></div>
+                    <h2 className="effect8">u</h2>
+                    <h2 className="effect9">n</h2>
+                    <h2 className="effect10">h</h2>
+                    <h2 className="effect11">o</h2>
+                    <h2 className="effect12">z</h2>
+                    <div className="containerBlock"></div>
+                    <h2 className="effect13">w</h2>
+                    <h2 className="effect14">e</h2>
+                    <h2 className="effect15" >b </h2>
                     <div className="containerSpace"></div>
                     <h2 className="effect16">d</h2>
                     <h2 className="effect17">e</h2>
@@ -108,10 +110,10 @@ function Home(){
                     <h2 className="effect23">e</h2>
                     <h2 className="effect24">r</h2>
                 </div>
-                <p id="tagDecoration3" className="tagsDecoration, effect25">{frase[3]}</p>
-                <p className="effect26">Front End Developer | ReactJS Expert</p>
-                <p id="tagDecoration3" className="tagsDecoration, effect26">{frase[4]}</p>
-                
+                <p id="tagDecoration3" className="tagsDecoration effect25">{frase[3]}</p>
+                <p className="effect26 frontEndStyle">Front End Developer | ReactJS Expert</p>
+                <p id="tagDecoration3" className="tagsDecoration effect26">{frase[4]}</p>
+
             </div>
                 <Link to="/contato"><button type="button" className="botaoContact botaoContactEfeito effect26">Contact me!</button></Link>
         </GlobalContainer>

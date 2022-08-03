@@ -3,14 +3,14 @@ import Menu from '../../components/Menu'
 import { Outlet } from 'react-router-dom'
 
 const ContainerLayout = styled.div`
-    display: flex;
+    display: inline-block;
     height: 100vh;
+    width: 100vw;
 `
 
 const ContainerContent = styled.div`
     flex-grow: 1;
-    margin-left: 15.5vh;
-    height: 100vh;
+    margin-left: 7.5vw;
 `
 
 function BaseLayout({ children }: { children?: JSX.Element }) {
@@ -23,7 +23,7 @@ function BaseLayout({ children }: { children?: JSX.Element }) {
                 <ContainerContent >
                     {children}
                 </ContainerContent>
-        </ContainerLayout>
+            </ContainerLayout>
     ):  (
         <BaseLayout>
             <Outlet/>

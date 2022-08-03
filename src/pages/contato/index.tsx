@@ -3,10 +3,10 @@ import Formulario from "../../components/FormularioContato"
 
 const GlobalContainer = styled.div`
     background-color: #1d1d1d;
-    width: 100% !important;
+    width: 100vw !important;
     height: 100vh;
     display: block;
-    padding-left: 2vh;
+    padding-left: 1vw;
 
     .position{
         width: 10px;
@@ -32,14 +32,14 @@ const GlobalContainer = styled.div`
         padding-top: 3vh;
     }
     .htmlTag02{
-        padding-left: 3vh;
+        padding-left: 1.4vw;
     }
     .htmlTag03{
         margin-top: 2vh;
         padding-top: 3vh;
     }
     .htmlposition{
-        padding-left: 5vh;
+        padding-left: 2vw;
     }
 `
 const HtmlTag = styled.p`
@@ -49,7 +49,7 @@ const HtmlTag = styled.p`
     font-family: 'Caveat';
 `
 const ContainerForm = styled.div`
-    padding-left: 5vh;
+    padding-left: 2.5vw;
     margin-left: 20px;
 `
 
