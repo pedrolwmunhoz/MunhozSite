@@ -33,7 +33,7 @@ const GlobalContainer = styled.div`
             color: white;
             display: inline-block;
         }
-        div h2:hover{
+        .effectBlueScale:hover{
             animation: moveh1 200ms ease infinite alternate-reverse;
             animation-fill-mode: forwards;
         }
@@ -80,23 +80,23 @@ function Home(){
             <div >
                 <p id="tagDecoration3" className="tagsDecoration">{frase[2]}</p>
                 <div className="resetEffectEntrada">
-                    <h2 className="effect1">H</h2>
-                    <h2 className="effect2">i</h2>
-                    <h2 className="effect3">,</h2>
+                    <h2 className="effect1 effectBlueScale">H</h2>
+                    <h2 className="effect2 effectBlueScale">i</h2>
+                    <h2 className="effect3 effectBlueScale">,</h2>
+                    <div className="containerBlock effectBlueScale"></div>
+                    <h2 className="effect4 effectBlueScale">I</h2>
+                    <h2 className="effect5 effectBlueScale">'</h2>
+                    <h2 className="effect6 effectBlueScale">m</h2>
+                    <div className="iconEffect effectBlueScale effect7"><Icone/></div>
+                    <h2 className="effect8 effectBlueScale">u</h2>
+                    <h2 className="effect9 effectBlueScale">n</h2>
+                    <h2 className="effect10 effectBlueScale">h</h2>
+                    <h2 className="effect11 effectBlueScale">o</h2>
+                    <h2 className="effect12 effectBlueScale">z</h2>
                     <div className="containerBlock"></div>
-                    <h2 className="effect4">I</h2>
-                    <h2 className="effect5">'</h2>
-                    <h2 className="effect6">m</h2>
-                    <div className="iconEffect, effect7"><Icone/></div>
-                    <h2 className="effect8">u</h2>
-                    <h2 className="effect9">n</h2>
-                    <h2 className="effect10">h</h2>
-                    <h2 className="effect11">o</h2>
-                    <h2 className="effect12">z</h2>
-                    <div className="containerBlock"></div>
-                    <h2 className="effect13">w</h2>
-                    <h2 className="effect14">e</h2>
-                    <h2 className="effect15" >b </h2>
+                    <h2 className="effect13 effectBlueScale">w</h2>
+                    <h2 className="effect14 effectBlueScale">e</h2>
+                    <h2 className="effect15 effectBlueScale" >b </h2>
                     <div className="containerSpace"></div>
                     <h2 className="effect16">d</h2>
                     <h2 className="effect17">e</h2>
