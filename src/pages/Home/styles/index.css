@@ -9,28 +9,28 @@
     border: 1px solid #08fdd8;
     font-family: sans-serif;
     margin-top: 4vh;
-    margin-left: 8vh;
+    margin-left: 4vw;
     cursor: pointer;
     transition: all 400ms ease;
     display: inline-block;
 }
 .tagsDecoration{
-    color: #535252;;
+    color: #535252;
     font-size: 1.3rem;
     letter-spacing: 4px;
     font-family: 'Caveat';
 }
 #tagDecoration1{
     padding-top: 4vh;
-    margin-left: 4vh;
+    margin-left: 2vw;
 }
 #tagDecoration2{
-    margin-left: 8vh;
+    margin-left: 4vw;
 }
 #tagDecoration3{
-    margin-left: -4vh;
-    font-family: 'Caveat';
+    margin-left: 4vw;
 }
+
 
 .containerBlock{
     display: block !important;
@@ -39,6 +39,9 @@
 .containerSpace{
     width: 1vh !important;
 
+}
+.containerEffect {
+    margin-left: 4vw;
 }
 
 .botaoContactEfeito{
