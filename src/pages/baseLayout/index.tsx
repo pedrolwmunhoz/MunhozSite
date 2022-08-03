@@ -10,7 +10,7 @@ const ContainerLayout = styled.div`
 
 const ContainerContent = styled.div`
     flex-grow: 1;
-    margin-left: 7.5vw;
+    margin-left: 10vw;
 `
 
 function BaseLayout({ children }: { children?: JSX.Element }) {

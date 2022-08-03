@@ -3,7 +3,6 @@ import gitHub from "./gitHub.png"
 import styled from "styled-components"
 
 const GlobalContainer = styled.div`
-        height: 100vh;
         margin-top: 10vh;
 
         #git{

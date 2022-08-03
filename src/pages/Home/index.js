@@ -10,8 +10,6 @@ const GlobalContainer = styled.div`
     background-color: #1d1d1d;
     display: block;
     height: 100vh;
-    width: 100vw;
-    padding-top: 7vh;
     div{
         padding-top: 8vh;
         font-family: Arial, Helvetica, sans-serif;
