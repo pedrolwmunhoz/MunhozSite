@@ -6,7 +6,7 @@ const GlobalContainer = styled.div`
         margin-top: 10vh;
 
         #git{
-            width: 15%;
+            width: 22%;
         }
         div{
             width: 5%;
@@ -15,7 +15,7 @@ const GlobalContainer = styled.div`
     `
 
     const Imagem = styled.img`
-        width: 18%;
+        width: 25%;
         filter: invert(100%);
         cursor: pointer;
         :hover{

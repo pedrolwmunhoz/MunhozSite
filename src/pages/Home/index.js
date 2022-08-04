@@ -9,8 +9,8 @@ const frase = ["</html>", "<body>", "<h1>", "<p>", "</p>"]
 const GlobalContainer = styled.div`
     @media only screen and  (max-width : 768px){
         background-color: #1d1d1d;
-        display: block;
-        height: 100vh;
+        width: 79vh !important;
+        height: 100vh !important;
         margin-left: 21vw;
         div{
             padding-top: 8vh;
@@ -58,7 +58,7 @@ const GlobalContainer = styled.div`
         background-color: #1d1d1d;
         display: block;
         height: 100vh;
-        margin-left: 9vw;
+        margin-left: 8vw;
         div{
             padding-top: 8vh;
             font-family: Arial, Helvetica, sans-serif;

@@ -122,7 +122,7 @@ const GlobalContainer = styled.div`
         position: fixed;
         text-align: center;
         display: inline-block;
-        width: 10vw;
+        width: 8vw;
         height: 100vh;
         menu {
             background-color: #181818;
@@ -179,7 +179,7 @@ const GlobalContainer = styled.div`
         position: fixed;
         text-align: center;
         display: inline-block;
-        width: 10vw;
+        width: 8vw;
         height: 100vh;
         menu {
             background-color: #181818;
