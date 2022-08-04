@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/MunhozSite/static/css/main.65fae525.css",
-    "main.js": "/MunhozSite/static/js/main.0d31b75c.js",
+    "main.js": "/MunhozSite/static/js/main.034af735.js",
     "static/js/787.553d2c7d.chunk.js": "/MunhozSite/static/js/787.553d2c7d.chunk.js",
     "static/media/icone.png": "/MunhozSite/static/media/icone.4679263bbe5784fcdad4.png",
     "static/media/linkedin.png": "/MunhozSite/static/media/linkedin.aac2bd0e899c2f82cb7b.png",
     "index.html": "/MunhozSite/index.html",
     "main.65fae525.css.map": "/MunhozSite/static/css/main.65fae525.css.map",
-    "main.0d31b75c.js.map": "/MunhozSite/static/js/main.0d31b75c.js.map",
+    "main.034af735.js.map": "/MunhozSite/static/js/main.034af735.js.map",
     "787.553d2c7d.chunk.js.map": "/MunhozSite/static/js/787.553d2c7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65fae525.css",
-    "static/js/main.0d31b75c.js"
+    "static/js/main.034af735.js"
   ]
 }
