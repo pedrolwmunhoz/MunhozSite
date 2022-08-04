@@ -1,5 +1,5 @@
 {
-  "homepage": "./",
+  "homepage": "https:/pedrolwmunhoz.github.io/MunhozSite",
   "name": "munhozsite",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d buid",
     "build": "react-scripts build",
     "test": "react-scripts test",
