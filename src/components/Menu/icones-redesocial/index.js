@@ -1,7 +1,6 @@
 import linkedin from "./linkedin.png"
 import gitHub from "./gitHub.png"
 import styled from "styled-components"
-import { Link } from "react-router-dom"
 
 const GlobalContainer = styled.div`
         margin-top: 10vh;

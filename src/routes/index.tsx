@@ -1,4 +1,4 @@
-import { BrowserRouter,Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import BaseLayout from "../pages/baseLayout";
 import Portfolio from "../pages/portifolio";
@@ -7,7 +7,6 @@ import Loading from "../pages/loading";
 
 function AppRoutes() {
     return(
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route element={<BaseLayout/>}>
                     <Route path="/" element={<Home/>}/>
@@ -16,7 +15,6 @@ function AppRoutes() {
                     <Route path="/loading" element={<Loading/>}/>
                 </Route>
             </Routes>
-        </BrowserRouter>
     )
 }
 
