@@ -4,13 +4,14 @@ import { Outlet } from 'react-router-dom'
 
 const ContainerLayout = styled.div`
     display: inline-block;
-    height: 100vh;
-    width: 100vw;
+
 `
 
 const ContainerContent = styled.div`
     flex-grow: 1;
-    margin-left: 10vw;
+    height: 100vh;
+    width: 100vw;
+
 `
 
 function BaseLayout({ children }: { children?: JSX.Element }) {

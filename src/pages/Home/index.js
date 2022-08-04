@@ -7,55 +7,97 @@ import './styles/EffectEntrada/index.css'
 const frase = ["</html>", "<body>", "<h1>", "<p>", "</p>"]
 
 const GlobalContainer = styled.div`
-    background-color: #1d1d1d;
-    display: block;
-    height: 100vh;
-    div{
-        padding-top: 8vh;
-        font-family: Arial, Helvetica, sans-serif;
+    @media only screen and  (max-width : 768px){
+        background-color: #1d1d1d;
+        display: block;
+        height: 100vh;
+        margin-left: 21vw;
         div{
-            padding: 0;
-            display: inline-block;
-        }
-        div h1{
-            font-size: 5.5rem;
-            font-weight: bold;
-            line-height: 5rem;
-            color: white;
-            max-width: 100%;
-        }
+            padding-top: 8vh;
+            font-family: Arial, Helvetica, sans-serif;
+            div{
+                padding: 0;
+                display: inline-block;
+            }
 
-        div h2{
-            font-size: 5.5rem;
-            font-weight: bold;
-            color: white;
-            display: inline-block;
-        }
-        .effectBlue:hover{
-            animation: moveh1 200ms ease infinite alternate-reverse;
-            animation-fill-mode: forwards;
-        }
+            div h2{
+                font-size: 2.6rem;
+                font-weight: bold;
+                color: white;
+                display: inline-block;
+            }
+            .effectBlue:hover{
+                animation: moveh1 200ms ease infinite alternate-reverse;
+                animation-fill-mode: forwards;
+            }
 
 
 
-        @keyframes  moveh1 {
-            from{
-                transform: scale(1.3);
-                color: #08fdd8;
+            @keyframes  moveh1 {
+                from{
+                    transform: scale(1.3);
+                    color: #08fdd8;
+                }
+            }
+            div div {
+                width: 7vh;
+                padding: 0;
+                margin-left: 2vh;
+                display: inline-block;
+            }
+            .frontEndStyle {
+                color: #8d8d8d;
+                font-size: 0.7rem;
+                margin-top: 1vh;
+                letter-spacing: 2px;
+                margin-left: 4vw;
             }
         }
-        div div {
-            width: 14vh;
-            padding: 0;
-            margin-left: 4vh;
-            display: inline-block;
-        }
-        .frontEndStyle {
-            color: #8d8d8d;
-            font-size: 1.3rem;
-            margin-top: 1vh;
-            letter-spacing: 4px;
-            margin-left: 4vw;
+    }
+    @media only screen  and (min-width : 768px)  {
+        background-color: #1d1d1d;
+        display: block;
+        height: 100vh;
+        margin-left: 9vw;
+        div{
+            padding-top: 8vh;
+            font-family: Arial, Helvetica, sans-serif;
+            div{
+                padding: 0;
+                display: inline-block;
+            }
+            div h2{
+                font-size: 5.5rem;
+                font-weight: bold;
+                color: white;
+                display: inline-block;
+            }
+            .effectBlue:hover{
+                animation: moveh1 200ms ease infinite alternate-reverse;
+                animation-fill-mode: forwards;
+            }
+
+
+
+            @keyframes  moveh1 {
+                from{
+                    transform: scale(1.3);
+                    color: #08fdd8;
+                }
+            }
+            div div {
+                width: 14vh;
+                padding: 0;
+                margin-left: 4vh;
+                display: inline-block;
+            }
+            .frontEndStyle {
+                color: #8d8d8d;
+                font-size: 1.3rem;
+                margin-top: 1vh;
+                letter-spacing: 4px;
+                margin-left: 4vw;
+            }
         }
     }
 `
@@ -66,7 +108,9 @@ function Home(){
       for (let index = 0; index < maximo ; index++) {
           const elemento = document.querySelector(".effect"+index)
           elemento?.classList.remove("effect"+index)
-          elemento?.classList.add("effectBlue")
+          if(index<25){
+            elemento?.classList.add("effectBlue")
+          }
       }
       const resetEffectEntrada = document.getElementsByClassName("resetEffectEntrada")
       resetEffectEntrada[0]?.classList.remove("resetEffectEntrada")
