@@ -1,71 +1,150 @@
-.botaoContact{
-    position: relative;
-    box-sizing: border-box;
-    padding: 15px 60px;
-    font-size: 14px;
-    border-radius: 2px;
-    color: #08fdd8;
-    letter-spacing: 4px;
-    border: 1px solid #08fdd8;
-    font-family: sans-serif;
-    margin-top: 4vh;
-    margin-left: 4vw;
-    cursor: pointer;
-    transition: all 400ms ease;
-    display: inline-block;
-}
-.tagsDecoration{
-    color: #535252;
-    font-size: 1.3rem;
-    letter-spacing: 4px;
-    font-family: 'Caveat';
-}
-#tagDecoration1{
-    padding-top: 4vh;
-    margin-left: 2vw;
-}
-#tagDecoration2{
-    margin-left: 4vw;
-}
-#tagDecoration3{
-    margin-left: 4vw;
-}
+@media only screen  and (max-width : 768px) {
 
-
-.containerBlock{
-    display: block !important;
-}
-
-.containerSpace{
-    width: 1vh !important;
-
-}
-.containerEffect {
-    margin-left: 4vw;
-}
-
-.botaoContactEfeito{
-    background-color: transparent;
-}
-.botaoContactEfeito:before{
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 0px;
-    height: 100%;
-    background-color: #08fdd86a;
-    transition: all 400ms ease;
-}
-.botaoContactEfeito:hover:before{
-    width: 100%;
-}
-
-@keyframes effectEntrada {
-    from {
-        opacity: 0;
+    .botaoContact{
+        position: relative;
+        box-sizing: border-box;
+        padding: 10px 32px;
+        font-size: 10px;
+        border-radius: 1px;
+        color: #08fdd8;
+        letter-spacing: 2px;
+        border: 1px solid #08fdd8;
+        font-family: sans-serif;
+        margin-top: 2vh;
+        margin-left: 4vw;
+        cursor: pointer;
+        transition: all 400ms ease;
+        display: inline-block;
     }
-    to {
-        opacity: 1;
+    .tagsDecoration{
+        color: #535252;
+        font-size: 0.7rem;
+        letter-spacing: 2px;
+        font-family: 'Caveat';
+    }
+    #tagDecoration1{
+        padding-top: 4vh;
+        margin-left: 2vw;
+    }
+    #tagDecoration2{
+        margin-left: 4vw;
+    }
+    #tagDecoration3{
+        margin-left: 4vw;
+        margin-top: 2vh;
+    }
+
+
+    .containerBlock{
+        display: block !important;
+    }
+
+    .containerSpace{
+        width: 1vh !important;
+
+    }
+    .containerEffect {
+        margin-left: 4vw;
+    }
+
+    .botaoContactEfeito{
+        background-color: transparent;
+    }
+    .botaoContactEfeito:before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 0px;
+        height: 100%;
+        background-color: #08fdd86a;
+        transition: all 400ms ease;
+    }
+    .botaoContactEfeito:hover:before{
+        width: 100%;
+    }
+
+    @keyframes effectEntrada {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}
+
+@media only screen  and (min-width : 768px) {
+
+    .botaoContact{
+        position: relative;
+        box-sizing: border-box;
+        padding: 15px 60px;
+        font-size: 14px;
+        border-radius: 2px;
+        color: #08fdd8;
+        letter-spacing: 4px;
+        border: 1px solid #08fdd8;
+        font-family: sans-serif;
+        margin-top: 4vh;
+        margin-left: 4vw;
+        cursor: pointer;
+        transition: all 400ms ease;
+        display: inline-block;
+    }
+    .tagsDecoration{
+        color: #535252;
+        font-size: 1.3rem;
+        letter-spacing: 4px;
+        font-family: 'Caveat';
+    }
+    #tagDecoration1{
+        padding-top: 4vh;
+        margin-left: 2vw;
+    }
+    #tagDecoration2{
+        margin-left: 4vw;
+    }
+    #tagDecoration3{
+        margin-left: 4vw;
+    }
+
+
+    .containerBlock{
+        display: block !important;
+    }
+
+    .containerSpace{
+        width: 1vh !important;
+
+    }
+    .containerEffect {
+        margin-left: 4vw;
+    }
+
+    .botaoContactEfeito{
+        background-color: transparent;
+    }
+    .botaoContactEfeito:before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 0px;
+        height: 100%;
+        background-color: #08fdd86a;
+        transition: all 400ms ease;
+    }
+    .botaoContactEfeito:hover:before{
+        width: 100%;
+    }
+
+    @keyframes effectEntrada {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 }

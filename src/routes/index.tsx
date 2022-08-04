@@ -7,14 +7,14 @@ import Loading from "../pages/loading";
 
 function AppRoutes() {
     return(
-        <Routes>
-            <Route element={<BaseLayout/>}>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/portfolio" element={<Portfolio/>}/>
-                <Route path="/contato" element={<Contato/>}/>
-                <Route path="/loading" element={<Loading/>}/>
-            </Route>
-        </Routes>
+            <Routes>
+                <Route element={<BaseLayout/>}>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/portfolio" element={<Portfolio/>}/>
+                    <Route path="/contato" element={<Contato/>}/>
+                    <Route path="/loading" element={<Loading/>}/>
+                </Route>
+            </Routes>
     )
 }
 

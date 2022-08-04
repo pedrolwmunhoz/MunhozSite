@@ -29,9 +29,13 @@ function IconesRedeSocial () {
 
     return(
         <GlobalContainer>
+            <a href="https://www.linkedin.com/in/pedro-munhoz-675847222">
             <Imagem src={linkedin}/>
+            </a>
             <div></div>
+            <a href="https://github.com/pedrolwmunhoz">
             <Imagem id="git" src={gitHub}/>
+            </a>
         </GlobalContainer>
     )
 }

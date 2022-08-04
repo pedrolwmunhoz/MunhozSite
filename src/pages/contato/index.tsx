@@ -5,41 +5,41 @@ const GlobalContainer = styled.div`
     background-color: #1d1d1d;
     width: 100vw !important;
     height: 100vh;
-    display: block;
-    padding-left: 1vw;
-
+    margin-left: 10vw;
+    div {
+        padding-top: 1vh;
+        margin-left: 1vw;
+    }
     .position{
         width: 10px;
         margin-top: 7vh;
     }
-    h2 {
+    div h2 {
         font-size: 5rem;
         line-height: 5rem;
         color: #08fdd8;
         max-width: 100%;
         font-family: Arial, Helvetica, sans-serif;
-        padding-left: 7vh;
+        margin-left: 3vw;
     }
-    span {
+    div span {
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         font-size: 1.1rem;
         display: block;
         display: block;
         max-width: 670px;
+        margin-left: 2vw;
     }
-    .htmlTag01{
-        padding-top: 3vh;
-    }
+
     .htmlTag02{
-        padding-left: 1.4vw;
+        margin-left: 1.4vw;
     }
     .htmlTag03{
-        margin-top: 2vh;
-        padding-top: 3vh;
+        margin-top: 3vh;
     }
     .htmlposition{
-        padding-left: 2vw;
+        margin-left: 2vw;
     }
 `
 const HtmlTag = styled.p`
@@ -49,8 +49,7 @@ const HtmlTag = styled.p`
     font-family: 'Caveat';
 `
 const ContainerForm = styled.div`
-    padding-left: 2.5vw;
-    margin-left: 20px;
+    margin-left: 25px;
 `
 
 const htmlTagOption = ["<html>", "<body>", "<h2>", "<p>", "</p>", "</h2>", "<form>", "</form>", "</html>"]
@@ -58,28 +57,30 @@ const htmlTagOption = ["<html>", "<body>", "<h2>", "<p>", "</p>", "</h2>", "<for
 function Contato (){
     return(
         <GlobalContainer>
-            <HtmlTag className="htmlTag01">{htmlTagOption[0]}</HtmlTag>
-            <HtmlTag className="htmlTag02">{htmlTagOption[1]}</HtmlTag>
-            <HtmlTag className="htmlposition htmlTag03">{htmlTagOption[2]}</HtmlTag>
-                <h2>Contato</h2>
-                <HtmlTag className="htmlTag02">{htmlTagOption[5]}</HtmlTag>
-                <HtmlTag className="htmlTag02">{htmlTagOption[3]}</HtmlTag>
-                <ContainerForm>
-                    <span>
-                        Estou interessado em oportunidades freelance - especialmente projetos ambiciosos ou grandes.
-                    </span>
-                    <span>
-                        No entanto se você tiver outra solicitação ou dúvida, não hesite me contatar.
-                    </span>
-                </ContainerForm>
-                <HtmlTag className="htmlTag02">{htmlTagOption[4]}</HtmlTag>
-                <HtmlTag className="htmlTag02">{htmlTagOption[6]}</HtmlTag>
-                <ContainerForm>
-                    <Formulario/>
-                </ContainerForm>
-            
-            <HtmlTag className="htmlTag02" >{htmlTagOption[7]}</HtmlTag>
-            <HtmlTag>{htmlTagOption[8]}</HtmlTag>
+            <div>
+                <HtmlTag className="htmlTag01">{htmlTagOption[0]}</HtmlTag>
+                <HtmlTag className="htmlTag02">{htmlTagOption[1]}</HtmlTag>
+                <HtmlTag className="htmlposition htmlTag03">{htmlTagOption[2]}</HtmlTag>
+                    <h2>Contato</h2>
+                    <HtmlTag className="htmlTag02">{htmlTagOption[5]}</HtmlTag>
+                    <HtmlTag className="htmlTag02">{htmlTagOption[3]}</HtmlTag>
+                    <ContainerForm>
+                        <span>
+                            Estou interessado em oportunidades freelance - especialmente projetos ambiciosos ou grandes.
+                        </span>
+                        <span>
+                            No entanto se você tiver outra solicitação ou dúvida, não hesite me contatar.
+                        </span>
+                    </ContainerForm>
+                    <HtmlTag className="htmlTag02">{htmlTagOption[4]}</HtmlTag>
+                    <HtmlTag className="htmlTag02">{htmlTagOption[6]}</HtmlTag>
+                    <ContainerForm>
+                        <Formulario/>
+                    </ContainerForm>
+                
+                <HtmlTag className="htmlTag02" >{htmlTagOption[7]}</HtmlTag>
+                <HtmlTag>{htmlTagOption[8]}</HtmlTag>
+            </div>
         </GlobalContainer>
     )
 }

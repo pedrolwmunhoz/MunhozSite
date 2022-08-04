@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 const GlobalContainer = styled.div`
     display: inline-block;
+    margin-left: 2vw !important;
 
 `
 const Form = styled.form`
