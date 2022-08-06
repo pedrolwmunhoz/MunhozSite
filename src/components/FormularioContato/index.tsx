@@ -40,7 +40,7 @@ const Inputs = styled.input`
         font-size: 11px;
         border: 0;
         color: #8d8d8d;
-        padding: 20px;
+        padding: 15px;
     }
     @media only screen and  (min-width : 768px){
         width: 630px;
@@ -59,9 +59,9 @@ function Formulario(){
     return(
         <GlobalContainer>
             <Form>
-                <Inputs id="inputStyled" type="text" placeholder="Nome"></Inputs>
-                <Inputs id="inputStyled" type="email" placeholder="Email"></Inputs>
-                <Inputs className="caixaTexto " type="text" placeholder="Conte-me, oque precisa?"></Inputs>
+                <Inputs className="effect27" id="inputStyled" type="text" placeholder="Nome"></Inputs>
+                <Inputs className="effect28" id="inputStyled" type="email" placeholder="Email"></Inputs>
+                <Inputs className="caixaTexto effect28" type="text" placeholder="Conte-me, oque precisa?"></Inputs>
             </Form>
         </GlobalContainer>
     )

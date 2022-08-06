@@ -249,7 +249,7 @@ function Menu(){
                 <div className="divisao">
                     <nav><Link className="link" to="/sobre"><span>Sobre</span></Link></nav>
                     <nav><Link className="link" to="/portfolio"><span>Portfolio</span></Link></nav>
-                    <nav><Link className="link" to="/skills"><span>Minhas Skills</span></Link></nav>
+                    <nav><Link className="link" to="/minhas-skills"><span>Minhas Skills</span></Link></nav>
                     <nav><Link className="link" to="/contato"><span>Contato</span></Link></nav>
                 </div>
                 <div className="containerIconeRedeSocial">

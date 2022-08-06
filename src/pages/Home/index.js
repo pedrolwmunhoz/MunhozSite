@@ -8,9 +8,6 @@ const frase = ["</html>", "<body>", "<h1>", "<p>", "</p>"]
 
 const GlobalContainer = styled.div`
     @media only screen and  (max-width : 768px){
-        background-color: #1d1d1d;
-        width: 79vh !important;
-        height: 100vh !important;
         margin-left: 21vw;
         div{
             padding-top: 8vh;
