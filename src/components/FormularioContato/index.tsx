@@ -21,7 +21,7 @@ const Form = styled.form`
     }
     @media only screen and  (min-width : 768px){
         .caixaTexto {
-            padding-bottom: 25vh;
+            padding-bottom: 23%;
 
         }
         .inputStyled {

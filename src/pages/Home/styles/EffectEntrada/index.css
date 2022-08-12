@@ -129,10 +129,10 @@
 
 .effect27 {
     animation:  effectSubir 500ms ease 350ms both alternate,
-                effectFade 500ms ease 350ms both alternate
+                effectFade 500ms ease 700ms both alternate
 }
 .effect28 {
-    animation: effectFade 500ms ease 350ms both alternate
+    animation: effectFade 500ms ease 700ms both alternate
 }
 
 .effect29 {

@@ -1,0 +1,8 @@
+.textEnviarStyle {
+    font-size: 1rem;
+    color: #08fdd8;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-family: sans-serif;
+    pointer-events:none
+}
